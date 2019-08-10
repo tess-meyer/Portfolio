@@ -5,7 +5,9 @@ class Splash extends React.Component {
         return ( 
             <div className='splash'>
                 <p className="splash-text">Hi! I'm Tess</p>
-                <img className="me" src="/me.jpeg" alt=""/>
+                    <a href="https://www.linkedin.com/in/tess-meyer-6b7a2a160">
+                        <img className="me" src="/me.jpeg" alt=""/>
+                    </a>
                 <p className="splash-text">I'm a developer</p>
             </div>
          );

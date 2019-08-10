@@ -1,3 +1,6 @@
+//colors
+$color-pink: rgb(252, 185, 207);
+
 
 //Media Queries
 
@@ -43,7 +46,7 @@ body,html{
 
 
 .splash {
-   background: linear-gradient(to right bottom, rgb(252, 220, 183) 50%, rgb(252, 185, 207) 50%);
+   background: linear-gradient(to right bottom, rgb(252, 220, 183) 50%, $color-pink 50%);
    height: 100vh;
    width: 100vw;
    display: flex;
@@ -61,8 +64,7 @@ body,html{
     height: 11rem;
     overflow: hidden;
     border-radius: 50%;
-    border: lightpink 6px solid;
-    margin-left: 17vw;  
+    border: $color-pink 6px solid;
 }
 
 
