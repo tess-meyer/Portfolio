@@ -1,3 +1,50 @@
-body {
-    background-color: darkslategrey;
+
+//Media Queries
+
+$screen-sm: 48rem;
+$screen-md: 64rem;
+$screen-lg: 90rem;
+$screen-xl: 100rem;
+
+@mixin tablet {
+    @media (min-width: #{$screen-sm}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$screen-md}) {
+        @content;
+    }
+}
+
+@mixin desktop-large {
+    @media (min-width: #{$screen-lg}) {
+        @content;
+    }
+}
+
+@mixin desktop-xlarge {
+    @media (min-width: #{$screen-xl}) {
+        @content;
+    }
+}
+
+
+body,html{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  font-family: helvetica neue, helvetica, arial, sans-serif;
+  background-color: white;
+  font-size: 16px;
+}
+
+
+.splash {
+    background-color: cornflowerblue;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
 }

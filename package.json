@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "starter for webpack React",
   "main": "server/index.js",
-  "author": "Pano",
+  "author": "Tess",
   "license": "ISC",
   "scripts": {
     "client": "webpack-dev-server --hot --inline",
