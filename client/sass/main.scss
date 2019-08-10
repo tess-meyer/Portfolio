@@ -1,3 +1,6 @@
+//colors
+$color-pink: rgb(252, 185, 207);
+
 
 //Media Queries
 
@@ -32,19 +35,52 @@ $screen-xl: 100rem;
 
 
 body,html{
-  max-width: 100%;
+  max-width: 100vw;
   margin: 0;
   padding: 0;
   font-weight: 200;
   font-family: helvetica neue, helvetica, arial, sans-serif;
-  background-color: white;
+  background-color:white;
   font-size: 16px;
 }
 
+h1, h2 {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-weight: 250
+}
 
 .splash {
-    background-color: cornflowerblue;
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
+   background: linear-gradient(to right bottom, rgb(252, 220, 183) 50%, $color-pink 50%);
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   flex-flow: column wrap;
+   align-content: center;
+   justify-content: space-around;
+   text-align: center;
+   p {
+       font-size: 3rem;
+   }
 }
+
+.me {
+    width: 11rem;
+    height: 11rem;
+    overflow: hidden;
+    border-radius: 50%;
+    border: $color-pink 6px solid;
+}
+
+.projects {
+    padding: 5vw
+}
+
+// .me {
+//     width: 30vh;
+//     height: 30vh;
+//     position: absolute;
+//     overflow: hidden;
+//     border-radius: 50%;
+//     margin: 33vh 23vw;
+//     border: lightpink 6px solid;
+// }

@@ -1,5 +1,7 @@
 import React from 'react'
 import Splash from './Splash';
+import Projects from './Projects';
+
 
 class App extends React.Component {
     constructor(props) {
@@ -15,6 +17,7 @@ class App extends React.Component {
         return (  
             <React.Fragment>
                 <Splash/>
+                <Projects/>
             </React.Fragment>
         );
     }

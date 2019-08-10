@@ -1,5 +1,5 @@
 body, html {
-  max-width: 100%;
+  max-width: 100vw;
   margin: 0;
   padding: 0;
   font-weight: 200;
@@ -7,8 +7,28 @@ body, html {
   background-color: white;
   font-size: 16px; }
 
+h1, h2 {
+  font-family: helvetica neue, helvetica, arial, sans-serif;
+  font-weight: 250; }
+
 .splash {
-  background-color: cornflowerblue;
+  background: linear-gradient(to right bottom, #fcdcb7 50%, #fcb9cf 50%);
   height: 100vh;
   width: 100vw;
-  position: absolute; }
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: space-around;
+  text-align: center; }
+  .splash p {
+    font-size: 3rem; }
+
+.me {
+  width: 11rem;
+  height: 11rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: #fcb9cf 6px solid; }
+
+.projects {
+  padding: 5vw; }
