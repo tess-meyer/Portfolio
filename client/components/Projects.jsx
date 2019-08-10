@@ -1,47 +1,36 @@
-import React, { Component } from 'react';
-import Projectsjs from './Projectsjs'
+import React from 'react'
 
-class Projects extends Component {
-    // Initialize state
-    state = { projects: [] };
-
-    // On load
-    componentDidMount() {
-        this.getProjects();
-    }
-
-    // Set state with our projects
-    getProjects = () => {
-        fetch('/api/projects')
-            .then(res => res.json())
-            .then(projects => this.setState({projects}));
-    }
-
-    render() {
-        const { projects } = this.state;
-
-        return (
-            <div className="App">
-
-                <h4>Here are a few of my projects</h4>
-
-                {
-                    projects.length ? (
-                        projects.map((project, index) => (
-                            <div key={project.name}>
-                                <p><b><a href={project.html_url}>{project.name}</a></b></p>
-                                <p>{project.description}</p>
-                            </div>
-                        ))
-                    ) : (
-                        <div>
-                            I don't have any projects
-                        </div>
-                    )
-                }
+class Projects extends React.Component {
+    render() { 
+        return ( 
+            <div className='projects'>
+                <h2>Here are a few of my projects:</h2>
+                <p>
+                    Af la croix lo-fi, retro hashtag tattooed waistcoat shaman sartorial
+                    marfa chambray craft beer keffiyeh. 8-bit fingerstache fashion axe
+                    shaman pour-over, organic irony. Church-key vaporware yr normcore. 
+                </p>
+                <p>
+                    Shoreditch art party intelligentsia crucifix. Pickled four dollar 
+                    toast kogi DIY crucifix disrupt. Air plant tbh etsy poke kogi cloud
+                    bread knausgaard church-key yr hoodie narwhal cold-pressed photo
+                    booth pabst polaroid.
+                </p>
+                <p>
+                    Af la croix lo-fi, retro hashtag tattooed waistcoat shaman sartorial
+                    marfa chambray craft beer keffiyeh. 8-bit fingerstache fashion axe
+                    shaman pour-over, organic irony. Church-key vaporware yr normcore. 
+                </p>
+                 <p>
+                    Shoreditch art party intelligentsia crucifix. Pickled four dollar 
+                    toast kogi DIY crucifix disrupt. Air plant tbh etsy poke kogi cloud
+                    bread knausgaard church-key yr hoodie narwhal cold-pressed photo
+                    booth pabst polaroid.
+                </p>
             </div>
-        );
+            
+         );
     }
 }
-
+ 
 export default Projects;

@@ -7,6 +7,10 @@ body, html {
   background-color: white;
   font-size: 16px; }
 
+h1, h2 {
+  font-family: helvetica neue, helvetica, arial, sans-serif;
+  font-weight: 250; }
+
 .splash {
   background: linear-gradient(to right bottom, #fcdcb7 50%, #fcb9cf 50%);
   height: 100vh;
@@ -25,3 +29,6 @@ body, html {
   overflow: hidden;
   border-radius: 50%;
   border: #fcb9cf 6px solid; }
+
+.projects {
+  padding: 5vw; }

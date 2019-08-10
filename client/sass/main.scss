@@ -40,10 +40,14 @@ body,html{
   padding: 0;
   font-weight: 200;
   font-family: helvetica neue, helvetica, arial, sans-serif;
-  background-color: white;
+  background-color:white;
   font-size: 16px;
 }
 
+h1, h2 {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-weight: 250
+}
 
 .splash {
    background: linear-gradient(to right bottom, rgb(252, 220, 183) 50%, $color-pink 50%);
@@ -67,6 +71,9 @@ body,html{
     border: $color-pink 6px solid;
 }
 
+.projects {
+    padding: 5vw
+}
 
 // .me {
 //     width: 30vh;

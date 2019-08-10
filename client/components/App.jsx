@@ -1,7 +1,6 @@
 import React from 'react'
 import Splash from './Splash';
 import Projects from './Projects';
-import Projectsjs from './Projectsjs'
 
 
 class App extends React.Component {
