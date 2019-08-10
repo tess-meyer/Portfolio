@@ -28,7 +28,16 @@ h1, h2 {
   height: 11rem;
   overflow: hidden;
   border-radius: 50%;
-  border: #fcb9cf 6px solid; }
+  border: #fcb9cf 0.34rem solid; }
+
+.about {
+  padding: 5vw;
+  background: linear-gradient(0deg, rgba(253, 187, 45, 0.48083) 0%, #fcb9cf 100%); }
 
 .projects {
-  padding: 5vw; }
+  padding: 5vw;
+  background: linear-gradient(0deg, rgba(252, 246, 185, 0.662903) 0%, rgba(253, 187, 45, 0.48083) 100%); }
+
+.technologies {
+  padding: 5vw;
+  background: linear-gradient(0deg, rgba(45, 253, 46, 0.265144) 0%, rgba(252, 246, 185, 0.668505) 100%); }

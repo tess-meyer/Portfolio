@@ -68,11 +68,22 @@ h1, h2 {
     height: 11rem;
     overflow: hidden;
     border-radius: 50%;
-    border: $color-pink 6px solid;
+    border: $color-pink 0.34rem solid;
+}
+
+.about {
+    padding: 5vw;
+    background: linear-gradient(0deg, rgba(253,187,45,0.48082983193277307) 0%, rgba(252,185,207,1) 100%);
 }
 
 .projects {
-    padding: 5vw
+    padding: 5vw;
+    background: linear-gradient(0deg, rgba(252,246,185,0.6629026610644257) 0%, rgba(253,187,45,0.48082983193277307) 100%);
+}
+
+.technologies {
+    padding: 5vw;
+    background: linear-gradient(0deg, rgba(45,253,46,0.26514355742296913) 0%, rgba(252,246,185,0.6685049019607843) 100%);
 }
 
 // .me {
