@@ -12,7 +12,6 @@ h1, h2 {
   font-weight: 250; }
 
 .splash {
-  background: linear-gradient(to right bottom, #fcdcb7 50%, #fcb9cf 50%);
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -31,13 +30,10 @@ h1, h2 {
   border: #fcb9cf 0.34rem solid; }
 
 .about {
-  padding: 5vw;
-  background: linear-gradient(0deg, rgba(253, 187, 45, 0.48083) 0%, #fcb9cf 100%); }
+  padding: 5vw; }
 
 .projects {
-  padding: 5vw;
-  background: linear-gradient(0deg, rgba(252, 246, 185, 0.662903) 0%, rgba(253, 187, 45, 0.48083) 100%); }
+  padding: 5vw; }
 
 .technologies {
-  padding: 5vw;
-  background: linear-gradient(0deg, rgba(45, 253, 46, 0.265144) 0%, rgba(252, 246, 185, 0.668505) 100%); }
+  padding: 5vw; }

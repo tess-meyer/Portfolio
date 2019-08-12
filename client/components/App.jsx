@@ -20,8 +20,8 @@ class App extends React.Component {
             <React.Fragment>
                 <Splash/>
                 <About/>
-                <Projects/>
                 <Technologies/>
+                <Projects/>
             </React.Fragment>
         );
     }
