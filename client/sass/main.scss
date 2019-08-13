@@ -63,20 +63,33 @@ h1, h2 {
 }
 
 .splash-text {
-    padding: 13vw 5vw;
+    padding: 10vw 5vw 13vw 5vw;
     margin: 0 8vw;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     text-align: left;
     background-color: rgba(240, 248, 255, 0.575);
 }
 
-.me {
-    width: 11rem;
-    height: 11rem;
-    overflow: hidden;
-    border-radius: 50%;
-    border: $color-pink 0.34rem solid;
+.fade-in {
+	animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+ 0% {
+   opacity: 0;
+ }
+ 100% {
+   opacity: 1;
+ }
+}
+
+.fa-angle-down {
+    padding: 0 32vw;
+}
+
+hr {
+    border: inset 1px black;
 }
 
 .about {
@@ -94,16 +107,16 @@ h1, h2 {
     // background: linear-gradient(0deg, rgba(45,253,46,0.26514355742296913) 0%, rgba(252,246,185,0.6685049019607843) 100%);
 }
 
-.green {
-    color: white;
-}
+
+// .green {
+//     color: white;
+// }
+
 
 // .me {
-//     width: 30vh;
-//     height: 30vh;
-//     position: absolute;
+//     width: 11rem;
+//     height: 11rem;
 //     overflow: hidden;
 //     border-radius: 50%;
-//     margin: 33vh 23vw;
-//     border: lightpink 6px solid;
+//     border: $color-pink 0.34rem solid;
 // }
