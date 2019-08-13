@@ -18,9 +18,17 @@ h1, h2 {
   flex-flow: column wrap;
   align-content: center;
   justify-content: space-around;
-  text-align: center; }
-  .splash p {
-    font-size: 3rem; }
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1505142468610-359e7d316be0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2681&q=80");
+  background-size: cover; }
+
+.splash-text {
+  padding: 13vw 5vw;
+  margin: 0 8vw;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: left;
+  background-color: rgba(240, 248, 255, 0.575); }
 
 .me {
   width: 11rem;
@@ -37,3 +45,6 @@ h1, h2 {
 
 .technologies {
   padding: 5vw; }
+
+.green {
+  color: white; }

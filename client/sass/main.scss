@@ -1,6 +1,6 @@
 //colors
 $color-pink: rgb(252, 185, 207);
-
+$color-green: green;
 
 //Media Queries
 
@@ -58,9 +58,17 @@ h1, h2 {
    align-content: center;
    justify-content: space-around;
    text-align: center;
-   p {
-       font-size: 3rem;
-   }
+   background-image: url("https://images.unsplash.com/photo-1505142468610-359e7d316be0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2681&q=80");
+   background-size: cover;
+}
+
+.splash-text {
+    padding: 13vw 5vw;
+    margin: 0 8vw;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    background-color: rgba(240, 248, 255, 0.575);
 }
 
 .me {
@@ -84,6 +92,10 @@ h1, h2 {
 .technologies {
     padding: 5vw;
     // background: linear-gradient(0deg, rgba(45,253,46,0.26514355742296913) 0%, rgba(252,246,185,0.6685049019607843) 100%);
+}
+
+.green {
+    color: white;
 }
 
 // .me {
