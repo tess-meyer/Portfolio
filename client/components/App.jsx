@@ -1,8 +1,8 @@
 import React from 'react'
 import Splash from './Splash';
-import Projects from './Projects';
 import About from './About';
 import Technologies from './Technologies';
+// import Nav from './Nav'
 
 
 class App extends React.Component {
@@ -19,6 +19,7 @@ class App extends React.Component {
         return (  
             <React.Fragment>
                 <Splash/>
+                {/* <Nav/> */}
                 <About/>
                 <Technologies/>
                 {/* <Projects/> */}

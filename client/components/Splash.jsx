@@ -10,7 +10,7 @@ class Splash extends React.Component {
                     <hr/>
                     <h1>Web Developer <span className="green">&amp;</span> Problem Solver</h1>
 
-                    <i class="fas fa-angle-down fa-2x"></i>
+                    <i class="fas fa-angle-down fa-2x heartbeat"></i>
                 </div>
             </div>
          );
