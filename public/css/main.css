@@ -124,11 +124,12 @@ ul {
   background-color: #4F6A7A;
   color: white;
   text-align: center;
-  height: 8vh;
+  height: 10vh;
   padding: 0.8vh 0;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 .fa-linkedin-in, .fa-github, .fa-envelope-square {
   padding: 0 2vw;
@@ -147,3 +148,7 @@ ul {
 
 .download {
   margin: 0; }
+
+.email {
+  color: lightgrey;
+  padding: 0 20vw; }
