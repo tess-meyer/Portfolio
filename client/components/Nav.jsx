@@ -1,55 +1,75 @@
-import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import React, { Component } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
-const useStyles = makeStyles(theme => ({
-    root: {
-      flexGrow: 1,
-    },
-    menuButton: {
-      marginRight: theme.spacing(2),
-    },
-    title: {
-      flexGrow: 1,
-    },
-  }));
-  
-  export default function ButtonAppBar() {
-    const classes = useStyles();
-  
+export default class Navbar extends Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
+  render() {
+    return (
+      <nav className="nav" id="navbar">
+        <div className="nav-content">
 
-class Nav extends React.Component {
-    render() { 
-        return ( 
-            <div className='nav'>
-                <div className={classes.root}>
-                <AppBar position="static">
-                    <Toolbar>
-                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography variant="h6" className={classes.title}>
-                        News
-                    </Typography>
-                    <Button color="inherit">Login</Button>
-                    </Toolbar>
-                </AppBar>
-                </div>
-               
-            }
-                
-            </div>
-         );
-    }
+          <ul className="nav-items">
+          <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="splash"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="technologies"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Tech
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Projects
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    );
+  }
 }
- 
-export default Nav;
 
-
-
+          {/* <img
+            src="https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
+            className="nav-logo"
+            alt="Logo"
+            onClick={this.scrollToTop}
+          /> */}

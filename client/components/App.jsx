@@ -3,7 +3,7 @@ import Splash from './Splash';
 import About from './About';
 import Projects from './Projects';
 import Technologies from './Technologies';
-// import Nav from './Nav'
+import Nav from './Nav';
 
 
 class App extends React.Component {
@@ -18,7 +18,7 @@ class App extends React.Component {
         return (  
             <React.Fragment>
                 <Splash/>
-                {/* <Nav/> */}
+                <Nav/>
                 <About/>
                 <Technologies/>
                 <Projects/>

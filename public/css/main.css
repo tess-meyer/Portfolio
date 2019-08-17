@@ -91,3 +91,27 @@ hr {
   45% {
     transform: scale(1);
     animation-timing-function: ease-out; } }
+
+ul {
+  list-style-type: none; }
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly; }
+
+.nav-item {
+  height: 6vh;
+  width: 26vw;
+  padding: 3vh 2vh 1vh 2vh;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #00575F;
+  color: white; }
