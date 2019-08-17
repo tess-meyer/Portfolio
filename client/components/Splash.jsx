@@ -1,17 +1,36 @@
-import React from 'react'
+import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+
+//https://scotch.io/tutorials/implementing-smooth-scrolling-in-react
 
 class Splash extends React.Component {
-    render() { 
-        return ( 
-            <div className='splash'>
-                <p className="splash-text">Hi! I'm Tess</p>
-                    <a href="https://www.linkedin.com/in/tess-meyer-6b7a2a160">
-                        <img className="me" src="/me.jpeg" alt=""/>
-                    </a>
-                <p className="splash-text">I'm a developer</p>
-            </div>
-         );
-    }
+  render() {
+    return (
+      <div className="splash">
+        <div className="splash-text fade-in">
+          <h1>
+            Tess Meyer
+          </h1>
+          <hr />
+          <h1>
+            Web Developer <span className="green">&amp;</span> Problem Solver
+          </h1>
+
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1050}
+            >
+            <i className="fas fa-angle-down fa-2x heartbeat" />
+
+          </Link>
+        </div>
+      </div>
+    );
+  }
 }
- 
+
 export default Splash;

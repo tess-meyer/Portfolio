@@ -11,24 +11,144 @@ h1, h2 {
   font-family: helvetica neue, helvetica, arial, sans-serif;
   font-weight: 250; }
 
+a {
+  text-decoration: none; }
+
 .splash {
-  background: linear-gradient(to right bottom, #fcdcb7 50%, #fcb9cf 50%);
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-flow: column wrap;
   align-content: center;
   justify-content: space-around;
-  text-align: center; }
-  .splash p {
-    font-size: 3rem; }
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1505142468610-359e7d316be0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2681&q=80");
+  background-size: cover; }
 
-.me {
-  width: 11rem;
-  height: 11rem;
-  overflow: hidden;
-  border-radius: 50%;
-  border: #fcb9cf 6px solid; }
+.splash-text {
+  padding: 10vw 5vw 13vw 5vw;
+  margin: 0 8vw;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: left;
+  background-color: rgba(240, 248, 255, 0.575); }
+
+.fade-in {
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.fa-angle-down {
+  padding: 0 32vw; }
+
+hr {
+  border: inset 1px black; }
+
+.about {
+  padding: 5vw; }
 
 .projects {
   padding: 5vw; }
+
+.technologies {
+  padding: 0 10vw 10vh 10vw;
+  font-size: 1.5rem;
+  text-align: center; }
+  .technologies p {
+    font-size: 0.9em; }
+
+.tech-list {
+  display: flex;
+  font-size: 2rem;
+  flex-flow: column wrap;
+  text-align: center; }
+
+.quote {
+  font-size: 0.8em;
+  background-color: rgba(128, 128, 128, 0.178);
+  padding: 5vw 5vw 2vw 5vw;
+  margin: 0 0 5vw 0;
+  line-height: 1;
+  box-shadow: 4px 4px 20px -8px rgba(0, 0, 0, 0.54); }
+
+.heartbeat {
+  animation: heartbeat 3s ease-in-out infinite both; }
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out; }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in; }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out; }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in; }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out; } }
+
+ul {
+  list-style-type: none; }
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
+
+.nav-items {
+  background-color: #00575F;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly; }
+
+.nav-item {
+  height: 6vh;
+  width: 26vw;
+  padding: 3vh 2vh 1vh 2vh;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white; }
+
+.footer {
+  background-color: #4F6A7A;
+  color: white;
+  text-align: center;
+  height: 10vh;
+  padding: 0.8vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.fa-linkedin-in, .fa-github, .fa-envelope-square {
+  padding: 0 2vw;
+  color: white; }
+
+.contact, .download {
+  width: 88vw;
+  height: 8vh;
+  margin: 7vh 0vw 2vh 0;
+  background-color: rgba(0, 87, 95, 0.486);
+  border-radius: 25px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 7px 0 0 0; }
+
+.download {
+  margin: 0; }
+
+.email {
+  color: lightgrey;
+  padding: 0 20vw; }
