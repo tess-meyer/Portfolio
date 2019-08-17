@@ -11,6 +11,9 @@ h1, h2 {
   font-family: helvetica neue, helvetica, arial, sans-serif;
   font-weight: 250; }
 
+a {
+  text-decoration: none; }
+
 .splash {
   height: 100vh;
   width: 100vw;
@@ -52,7 +55,7 @@ hr {
   padding: 5vw; }
 
 .technologies {
-  padding: 10vw;
+  padding: 0 10vw 10vh 10vw;
   font-size: 1.5rem;
   text-align: center; }
   .technologies p {
@@ -69,7 +72,8 @@ hr {
   background-color: rgba(128, 128, 128, 0.178);
   padding: 5vw 5vw 2vw 5vw;
   margin: 0 0 5vw 0;
-  line-height: 1; }
+  line-height: 1;
+  box-shadow: 4px 4px 20px -8px rgba(0, 0, 0, 0.54); }
 
 .heartbeat {
   animation: heartbeat 3s ease-in-out infinite both; }
@@ -101,6 +105,7 @@ ul {
   top: 0; }
 
 .nav-items {
+  background-color: #00575F;
   display: flex;
   flex-direction: row;
   margin: 0;
@@ -113,5 +118,32 @@ ul {
   padding: 3vh 2vh 1vh 2vh;
   font-size: 1.2rem;
   text-align: center;
-  background-color: #00575F;
   color: white; }
+
+.footer {
+  background-color: #4F6A7A;
+  color: white;
+  text-align: center;
+  height: 8vh;
+  padding: 0.8vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.fa-linkedin-in, .fa-github, .fa-envelope-square {
+  padding: 0 2vw;
+  color: white; }
+
+.contact, .download {
+  width: 88vw;
+  height: 8vh;
+  margin: 7vh 0vw 2vh 0;
+  background-color: rgba(0, 87, 95, 0.486);
+  border-radius: 25px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 7px 0 0 0; }
+
+.download {
+  margin: 0; }

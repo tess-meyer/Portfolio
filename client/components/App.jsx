@@ -4,6 +4,7 @@ import About from './About';
 import Projects from './Projects';
 import Technologies from './Technologies';
 import Nav from './Nav';
+import Footer from './Footer';
 
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
                 <About/>
                 <Technologies/>
                 <Projects/>
+                <Footer/>
             </React.Fragment>
         );
     }

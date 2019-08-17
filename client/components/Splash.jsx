@@ -9,8 +9,7 @@ class Splash extends React.Component {
       <div className="splash">
         <div className="splash-text fade-in">
           <h1>
-            I<span className="green">'</span>m Tess Meyer
-            <span className="green">.</span>
+            Tess Meyer
           </h1>
           <hr />
           <h1>
