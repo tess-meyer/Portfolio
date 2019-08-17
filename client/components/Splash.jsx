@@ -19,7 +19,7 @@ class Splash extends React.Component {
 
           <Link
             activeClass="active"
-            to="nav"
+            to="about"
             spy={true}
             smooth={true}
             offset={-70}
