@@ -24,6 +24,7 @@ class Technologies extends React.Component {
                     <span>JavaScript <i class="fab fa-js-square"></i> </span>
                     <span>Knex <i class="fas fa-database"></i> </span>
                     <span>Github <i class="fab fa-github"></i> </span>
+                    <hr/>
                 </div>
             </div>
             

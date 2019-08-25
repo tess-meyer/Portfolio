@@ -21,18 +21,26 @@ class Projects extends React.Component {
              </div>
 
              <div className="card">
-                <img src="fam.png" alt="Avatar" className="project-img"></img>
+                <img src="cyoa.png" alt="Avatar" className="project-img"></img>
                 <div className="container">
-                    <h4><b>Festival Attendee Mapper</b></h4> 
+                    <h4><b>Choose your own adventure </b></h4> 
                     <p>July 2019</p> 
                 </div>
              </div>
 
              <div className="card">
-                <img src="fam.png" alt="Avatar" className="project-img"></img>
+                <img src="https://codepen.io/kalpeshsingh/pen/wMNpLp/image/large.png" alt="Avatar" className="project-img"></img>
                 <div className="container">
-                    <h4><b>Festival Attendee Mapper</b></h4> 
-                    <p>July 2019</p> 
+                    <h4><b>Calculator</b></h4> 
+                    <p>June 2019</p> 
+                </div>
+             </div>
+
+             <div className="card">
+                <img src="minesweeper.png" alt="Avatar" className="project-img"></img>
+                <div className="container">
+                    <h4><b>Minesweeper</b></h4> 
+                 <p>June 2019</p> 
                 </div>
              </div>
              </div>
