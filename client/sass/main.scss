@@ -100,11 +100,6 @@ hr {
     // background: linear-gradient(0deg, rgba(253,187,45,0.48082983193277307) 0%, rgba(252,185,207,1) 100%);
 }
 
-.projects {
-    padding: 5vw;
-    // background: linear-gradient(0deg, rgba(252,246,185,0.6629026610644257) 0%, rgba(253,187,45,0.48082983193277307) 100%);
-}
-
 .technologies {
     padding: 0 10vw 10vh 10vw;
     font-size: 1.5rem;
@@ -229,9 +224,32 @@ hr {
     padding: 0 20vw;
   }
 
-// .green {
-//     color: white;
-// }
+
+
+  .projects {
+    padding: 5vw;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .project-img {
+    width: 90vw;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
 
 
 // .me {
