@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "heroku": "^7.28.0",
     "node-fetch": "^2.6.0",
     "react-scroll": "^1.7.13",
     "superagent": "^5.1.0"
