@@ -4,14 +4,16 @@ class Projects extends React.Component {
     
     render() { 
         return ( 
-        <div className="projects">
+        <>
+            <div className="project-head">
             <h1>
                 Here are a few of my projects
             </h1>
             <p>
                 these projects were all made by me. super cool.
             </p>
-
+            </div>
+            <div className="projects">
             <div className="card">
                 <img src="ss.png" alt="ss" className="project-img"></img>
                 <div className="container">
@@ -52,6 +54,7 @@ class Projects extends React.Component {
                 </div>
              </div>
              </div>
+        </>
          );
     }
 }

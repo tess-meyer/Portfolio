@@ -38,7 +38,7 @@ class About extends React.Component {
         </div>
 
       <div className="about-left">
-        <img className="section-header" src="https://i.pinimg.com/originals/8b/0f/ad/8b0fad7358dc6960bcf44296985808f7.jpg"></img>
+        <img className="bike-pic" src="https://i.pinimg.com/originals/8b/0f/ad/8b0fad7358dc6960bcf44296985808f7.jpg"></img>
         <div className="video-responsive">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/2kVesu7k1Sc"
          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
