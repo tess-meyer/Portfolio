@@ -11,7 +11,15 @@ class Projects extends React.Component {
             <p>
                 these projects were all made by me. super cool.
             </p>
-            
+
+            <div className="card">
+                <img src="ss.png" alt="ss" className="project-img"></img>
+                <div className="container">
+                    <h4><b>Squawk Squad</b></h4> 
+                    <p>August 2019 - present</p> 
+                </div>
+             </div>
+
             <div className="card">
                 <img src="fam.png" alt="Avatar" className="project-img"></img>
                 <div className="container">
@@ -28,13 +36,13 @@ class Projects extends React.Component {
                 </div>
              </div>
 
-             <div className="card">
+             {/* <div className="card">
                 <img src="https://codepen.io/kalpeshsingh/pen/wMNpLp/image/large.png" alt="Avatar" className="project-img"></img>
                 <div className="container">
                     <h4><b>Calculator</b></h4> 
                     <p>June 2019</p> 
                 </div>
-             </div>
+             </div> */}
 
              <div className="card">
                 <img src="minesweeper.png" alt="Avatar" className="project-img"></img>

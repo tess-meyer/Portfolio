@@ -5,7 +5,7 @@ import Projects from './Projects';
 import Technologies from './Technologies';
 import Nav from './Nav';
 import Footer from './Footer';
-
+// import Contact from './Contact';
 
 class App extends React.Component {
     constructor(props) {
@@ -21,6 +21,7 @@ class App extends React.Component {
                 <Splash/>
                 <Nav/>
                 <About/>
+                {/* <Contact/> */}
                 <Technologies/>
                 <Projects/>
                 <Footer/>

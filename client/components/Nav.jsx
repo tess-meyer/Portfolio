@@ -12,6 +12,12 @@ export default class Navbar extends Component {
         <div className="nav-content">
 
           <ul className="nav-items">
+         
+          <li className="nav-item contact-header">
+            TESS MEYER 
+          </li>
+          {/* &nbsp; <i class="fas fa-kiwi-bird"></i> */}
+
           <li className="nav-item">
               <Link
                 activeClass="active"
