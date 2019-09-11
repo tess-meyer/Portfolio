@@ -27,7 +27,7 @@ class About extends React.Component {
           love that I can continue learning and growing every step of the way.
         </p>
         <p>
-          In my spare time I like to take on little projects, like cycling 1500 
+          In my spare time I like to take on little projects, like cycling 1500km 
           from Cape Reinga to Wellington educating hundreds of tamariki about 
           sustainability.
         </p>
