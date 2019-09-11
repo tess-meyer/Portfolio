@@ -12,7 +12,7 @@ class About extends React.Component {
       <div className="about about-right">
         <h3>Hi there! I'm Tess.</h3>
         <p>
-         I am a full stack web developer currently working as part of a dev team
+         I am a full stack web developer currently working as part of an agile development team
           for a sustainable NZ start-up, backed with over 800 hours of coding 
           training in a simulated work environment at Enspiral Dev Academy (EDA). 
           I chose a career in Web Development because I love solving problems. 
@@ -53,7 +53,7 @@ class About extends React.Component {
         </div>
       
       <div className="download"><i class="fas fa-download"></i>
-      <a href="CV.pdf" target="_blank">
+      <a href="tess-meyer-cv.pdf" target="_blank">
         &nbsp;Download My CV
       </a>
       </div>
