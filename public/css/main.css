@@ -134,11 +134,14 @@ hr {
   font-size: 2rem;
   flex-flow: column wrap;
   text-align: center; }
+  @media (min-width: 64rem) {
+    .tech-list {
+      line-height: 1.6; } }
 
 .quote {
   font-size: 0.8em;
   background-color: rgba(128, 128, 128, 0.178);
-  padding: 5vw 5vw 2vw 5vw;
+  padding: 5vw 5vw 3vw 5vw;
   margin: 0 0 5vw 0;
   line-height: 1;
   box-shadow: 4px 4px 20px -8px rgba(0, 0, 0, 0.54); }
@@ -237,7 +240,7 @@ ul {
   color: white;
   font-size: 2rem;
   text-align: center;
-  padding: 7px 0 0 0; }
+  padding: 2vh 0 0 0; }
 
 .email {
   color: lightgrey;
