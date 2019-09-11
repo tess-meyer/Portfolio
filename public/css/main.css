@@ -2,7 +2,7 @@ body, html {
   max-width: 100vw;
   margin: 0;
   padding: 0;
-  font-weight: 200;
+  font-weight: 250;
   font-family: helvetica neue, helvetica, arial, sans-serif;
   background-color: white;
   font-size: 16px; }
@@ -12,6 +12,12 @@ body, html {
   @media (min-width: 64rem) {
     body, html {
       font-size: 16px; } }
+  @media (min-width: 90rem) {
+    body, html {
+      font-size: 25px; } }
+  @media (min-width: 100rem) {
+    body, html {
+      font-size: 30px; } }
 
 h1, h2 {
   font-family: helvetica neue, helvetica, arial, sans-serif;
