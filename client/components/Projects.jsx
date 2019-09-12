@@ -29,7 +29,7 @@ class Projects extends React.Component {
                 </a>
              </div>
             <div className="card">
-                <a href="https://github.com/tess-meyer/Festival-Attendee-Mapper">
+                <a href="https://github.com/tess-meyer/Festival-Attendee-Mapper" target="blank">
                 <img src="fam.png" alt="Avatar" className="project-img"></img>
                 <div className="container">
                     <h4><b>Festival Attendee Mapper</b></h4> 
@@ -42,7 +42,7 @@ class Projects extends React.Component {
              </div>
 
              <div className="card">
-                 <a href="https://github.com/kotare-2019/cyoa"></a>
+                 <a href="https://github.com/kotare-2019/cyoa" target="blank"></a>
                 <img src="cyoa.png" alt="Avatar" className="project-img"></img>
                 <div className="container">
                     <h4><b>Choose your own adventure </b></h4> 
@@ -62,7 +62,7 @@ class Projects extends React.Component {
              </div> */}
 
              <div className="card">
-                 <a href="https://github.com/tess-meyer/minesweeper">
+                 <a href="https://github.com/tess-meyer/minesweeper" target="blank">
                 <img src="minesweeper.png" alt="Avatar" className="project-img"></img>
                 <div className="container">
                     <h4><b>Minesweeper</b></h4> 

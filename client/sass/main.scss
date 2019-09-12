@@ -237,23 +237,18 @@ hr {
     from {
       transform: scale(1);
       transform-origin: center center;
-      animation-timing-function: ease-out;
     }
     10% {
       transform: scale(0.91);
-      animation-timing-function: ease-in;
     }
     17% {
       transform: scale(0.98);
-      animation-timing-function: ease-out;
     }
     33% {
       transform: scale(0.87);
-      animation-timing-function: ease-in;
     }
     45% {
       transform: scale(1);
-      animation-timing-function: ease-out;
     }
   }
 
@@ -282,6 +277,8 @@ hr {
       }
   }
 
+
+
   .nav-item {
     height: 6vh;
     width: 26vw;
@@ -289,13 +286,19 @@ hr {
     font-size: 1.2rem;
     text-align: center;
     color: white;
-      
+
+    &:hover {
+      font-weight: 380;
+    } 
+
     @include desktop {
       width: 5vw;
       padding: 3vh 2vh 1vh 2vh;
       justify-self: flex-start;
+      cursor: pointer;
     }
   }
+
 
   .contact-header {
     display: none;
@@ -304,7 +307,11 @@ hr {
         width: 20vw;
         color: rgb(235, 235, 235);
         font-size: 1.2rem;
-        padding: 3vh 40vw 1vh 2vh;
+        padding: 3vh 2vw 1vh 2vh;
+        margin-right: 38vw;
+      }
+      &:hover {
+        font-weight: inherit;   
       }
   }
 
@@ -335,6 +342,11 @@ hr {
     font-size: 1.8rem;
     text-align: center;
     padding: 2vh 0 0 0;
+
+    &:hover {
+      background-color: #00575F;
+      cursor: pointer;
+    }
     @include desktop {
       width: 35vw;
       height: 8vh;

@@ -14,7 +14,7 @@ export default class Navbar extends Component {
           <ul className="nav-items">
          
           <li className="nav-item contact-header">
-            TESS MEYER 
+            <a href="https://www.linkedin.com/in/tess-meyer-6b7a2a160/" target="blank">TESS MEYER </a>
           </li>
           {/* &nbsp; <i class="fas fa-kiwi-bird"></i> */}
 
@@ -72,10 +72,3 @@ export default class Navbar extends Component {
     );
   }
 }
-
-          {/* <img
-            src="https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
-            className="nav-logo"
-            alt="Logo"
-            onClick={this.scrollToTop}
-          /> */}
