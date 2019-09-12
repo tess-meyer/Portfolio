@@ -42,7 +42,7 @@ class Projects extends React.Component {
              </div>
 
              <div className="card">
-                 <a href="https://github.com/kotare-2019/cyoa" target="blank"></a>
+                 <a href="https://github.com/kotare-2019/cyoa" target="blank">
                 <img src="cyoa.png" alt="Avatar" className="project-img"></img>
                 <div className="container">
                     <h4><b>Choose your own adventure </b></h4> 
@@ -51,6 +51,7 @@ class Projects extends React.Component {
                         during roughly my 6th week of coding ever. You could say it was an 
                         exciting moment.</p>
                 </div>
+                </a>
              </div>
 
              {/* <div className="card">
