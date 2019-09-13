@@ -359,7 +359,7 @@ hr {
   .download {
     margin-top: 2vh;
     @include desktop {
-      margin-top: 5vh;
+      margin: 5vh 2vw 2vh 5vw;
     }
   }
 

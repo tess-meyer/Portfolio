@@ -263,7 +263,7 @@ ul {
   margin-top: 2vh; }
   @media (min-width: 64rem) {
     .download {
-      margin-top: 5vh; } }
+      margin: 5vh 2vw 2vh 5vw; } }
 
 .email {
   color: lightgrey;
