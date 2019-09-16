@@ -16,7 +16,6 @@ export default class Navbar extends Component {
           <li className="nav-item contact-header">
             <a href="https://www.linkedin.com/in/tess-meyer-6b7a2a160/" target="blank">TESS MEYER </a>
           </li>
-          {/* &nbsp; <i class="fas fa-kiwi-bird"></i> */}
 
           <li className="nav-item">
               <Link

@@ -13,7 +13,8 @@ class About extends React.Component {
         <h3>Hi there! I'm Tess.</h3>
         <p>
          I am a full stack web developer currently working as part of an agile development team
-          for a sustainable NZ start-up, backed with over 800 hours of coding 
+          for a <a id="squawko" target="blank" href="https://squawksquad.co.nz/">
+            sustainability-focused NZ start-up</a>, backed with over 800 hours of coding 
           training in a simulated work environment at Enspiral Dev Academy (EDA). 
           I chose a career in Web Development because I love solving problems. 
         </p>
@@ -41,8 +42,8 @@ class About extends React.Component {
         <img className="bike-pic" src="https://i.pinimg.com/originals/8b/0f/ad/8b0fad7358dc6960bcf44296985808f7.jpg"></img>
         <div className="video-responsive">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/2kVesu7k1Sc"
-         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-          picture-in-picture" allowfullscreen></iframe>
+         frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+          picture-in-picture" allowFullScreen></iframe>
         </div>
       </div>
     
@@ -52,7 +53,7 @@ class About extends React.Component {
         </a>
         </div>
       
-      <div className="download"><i class="fas fa-download"></i>
+      <div className="download"><i className="fas fa-download"></i>
       <a href="tess-meyer-cv.pdf" target="_blank">
         &nbsp;Download My CV
       </a>

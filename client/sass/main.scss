@@ -417,6 +417,13 @@ hr {
     padding: 2px 16px;
   }
 
+  #squawko {
+    color: black;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+      }
+  }
 
 // .me {
 //     width: 11rem;

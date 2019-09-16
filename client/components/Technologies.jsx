@@ -16,14 +16,14 @@ class Technologies extends React.Component {
                    </div>
 
                     <div className="tech-list">
-                    <span>Node.JS <i class="fab fa-node"></i> </span>
-                    <span>React <i class="fab fa-react"></i> </span>
-                    <span>HTML5 <i class="fab fa-html5"></i> </span>
-                    <span>CSS3 <i class="fab fa-css3-alt"></i> </span>
-                    <span>SCSS <i class="fab fa-sass"></i> </span>
-                    <span>JavaScript <i class="fab fa-js-square"></i> </span>
-                    <span>Knex <i class="fas fa-database"></i> </span>
-                    <span>Github <i class="fab fa-github"></i> </span>
+                    <span>Node.JS <i className="fab fa-node"></i> </span>
+                    <span>React <i className="fab fa-react"></i> </span>
+                    <span>HTML5 <i className="fab fa-html5"></i> </span>
+                    <span>CSS3 <i className="fab fa-css3-alt"></i> </span>
+                    <span>SCSS <i className="fab fa-sass"></i> </span>
+                    <span>JavaScript <i className="fab fa-js-square"></i> </span>
+                    <span>Knex <i className="fas fa-database"></i> </span>
+                    <span>Github <i className="fab fa-github"></i> </span>
                     <hr/>
                 </div>
             </div>

@@ -307,3 +307,9 @@ ul {
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px; }
+
+#squawko {
+  color: black;
+  cursor: pointer; }
+  #squawko:hover {
+    text-decoration: underline; }
